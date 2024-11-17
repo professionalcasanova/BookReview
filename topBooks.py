@@ -5,8 +5,8 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 # load dos arquivos.
-df_reviews = pd.read_csv("C:/Users/masuc/Desktop/ArquivosPython/customer reviews.csv")
-df_top100_books = pd.read_csv("C:/Users/masuc/Desktop/ArquivosPython/Top-100 Trending Books.csv")
+df_reviews = pd.read_csv("CaminhoDoDiretorio/customer reviews.csv")
+df_top100_books = pd.read_csv("CaminhoDoDiretorio/Top-100 Trending Books.csv")
 
 # Filtros gráficos.
 price_max = df_top100_books["book price"].max()
