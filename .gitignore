@@ -1,0 +1,17 @@
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+env/
+venv/
+
+# Arquivos do Jupyter e Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# Configurações do PyCharm
+.idea/
