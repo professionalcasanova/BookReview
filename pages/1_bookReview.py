@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # Carregar arquivos (Datasets)
-df_reviews = pd.read_csv("C:/Users/masuc/Desktop/ArquivosPython/customer reviews.csv")
-df_top100_books = pd.read_csv("C:/Users/masuc/Desktop/ArquivosPython/Top-100 Trending Books.csv")
+df_reviews = pd.read_csv("CaminhoDoDiretorio/customer reviews.csv")
+df_top100_books = pd.read_csv("CaminhoDoDiretorio/Top-100 Trending Books.csv")
 
 # Selecionar um livro da lista.
 books = df_top100_books["book title"].unique()
